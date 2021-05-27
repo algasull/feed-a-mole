@@ -1,0 +1,56 @@
+.field {
+  width: 1080px;
+  height: 640px;
+  background-color: green;
+  background-image: url(./images/top_garden.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  cursor: url(./images/cursor.png), default;
+} 
+
+.hole-container {
+  width: 210px;
+  height: 210px;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+}
+
+.hungry {
+  background-image: url(./images/mole-hungry.png);
+  cursor: url(./images/cursor-worm.png), default;
+}
+
+.sad {
+  background-image: url(./images/mole-sad.png);
+}
+
+.leaving {
+  background-image: url(./images/mole-leaving.png);
+}
+
+.happy {
+  background-image: url(./images/mole-fed.png);
+}
+
+.king-hungry {
+  background-image: url(./images/king-mole-hungry.png);
+  cursor: url(./images/cursor-worm.png), default;
+}
+
+.king-sad {
+  background-image: url(./images/king-mole-sad.png);
+}
+
+.king-leaving {
+  background-image: url(./images/king-mole-leaving.png);
+}
+
+.king-happy {
+  background-image: url(./images/king-mole-fed.png);
+}
